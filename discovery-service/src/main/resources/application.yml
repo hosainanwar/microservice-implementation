@@ -1,0 +1,9 @@
+# Server config
+server:
+  port: ${PORT:9011}
+
+spring:
+  application:
+    name: discovery-service
+  profiles:
+    active: '@spring.active.profile@'
