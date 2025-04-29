@@ -8,7 +8,7 @@
         <version>2.6.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>co.egen.somch</groupId>
+    <groupId>co.local.mine</groupId>
     <artifactId>discovery-service</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
@@ -17,7 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <spring-cloud-dependencies.version>2021.0.0</spring-cloud-dependencies.version>
         <keycloak.version>15.0.0</keycloak.version>
         <spring-boot-admin-dependencies.version>2.5.5</spring-boot-admin-dependencies.version>
@@ -67,7 +67,6 @@
             </activation>
             <properties>
                 <spring.active.profile>local</spring.active.profile>
-                <!--<eureka.password>local123</eureka.password>-->
             </properties>
         </profile>
     </profiles>

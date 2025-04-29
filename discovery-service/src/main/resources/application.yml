@@ -1,6 +1,6 @@
 # Server config
 server:
-  port: ${PORT:9011}
+  port: ${PORT:9051}
 
 spring:
   application:
